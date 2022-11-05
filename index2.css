@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root{
+	--primary: #CC9544	;
+	--secondary: #603601;
+	--background: #1C0A00; 
+}
+
+body{
+    background-image: url(injustice.jpg);
+    background-size:30%;
+}
+
+.content{
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: var(--secondary);
+    color: var(--primary);
+    font-family: "Montserrat";
+    height: 650px;
+    border-radius: 10px;
+}
+
+.container{
+    padding: 5px;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+table{
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+p{
+    text-align: center;
+}
+
+table td{
+    padding: 5px;
+}
+
+input{
+    border: 3px solid var(--primary);
+    border-radius: 10px;
+}
+
+textarea{
+    border: 3px solid var(--primary);
+    border-radius: 10px;
+}
+
+select{
+    border: 3px solid var(--primary);
+    border-radius: 10px;
+    padding: 2px 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+button{
+    border: 3px solid var(--primary);
+    border-radius: 10px;
+    padding: 2px 15px;
+    font-weight: bold;
+}
+
+.tambahdata{
+    margin-top: 100px;
+    margin-left: 440px;
+    padding: 10px;
+}
+
+th{
+    padding: 10px;
+}
+
+td{
+    text-align: center;
+}
+
+a.home-button{
+    font-size: 15px;
+    font-weight: 1000;
+    text-decoration: none;
+    color: #CC9544;
+    text-transform: uppercase;
+    margin-left: 420px;
+}

@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root{
+	--primary: #CC9544	;
+	--secondary: #603601;
+	--background: #1C0A00; 
+}
+
+.dark-mode{
+	
+
+	--primary: #6B8E2E;
+	--secondary: #1B1B1B;
+	--background: lightgrey;
+}
+
+
+body{
+	font-family: "Montserrat", sans-serif;
+	color: var(--secondary);
+}
+
+h1{
+	font-family: "Anton", sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: var(--secondary);
+}
+
+ul{
+	list-style: none;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	padding: 0 15px;
+}
+
+.switch{
+	font-size: 24px;
+	margin-left: 30px;
+	cursor: pointer;
+}
+
+/* Navbar */
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px 0;
+	background-color: var(--primary);
+}
+
+nav a:hover{
+	color: var(--background)
+}
+
+.nav-wrapper{
+	display: flex;
+	align-items: center;
+}
+
+.logo{
+	flex: 1;
+}
+
+.logo a{
+	text-transform: uppercase;
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.menu{
+	display: flex;
+}
+
+.menu li{
+	text-transform: capitalize;
+	padding: 15px 10px;
+	font-weight: bold;
+}
+
+/* hero section */
+#gambar{
+	width: 280px;
+	height: 240px;
+	border-radius: 10px;
+	margin-left: 200px;
+}
+
+.hero-section{
+	background: var(--background);
+	display: flex;
+	height: 100vh;
+	padding: 50px 0;
+}
+
+.hero-wrapper{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	gap: 30px;
+}
+
+.hero-wrapper div{
+	flex: 1;
+}
+
+.hero-wrapper h1{
+	font-size: 60px;
+	color: var(--primary);
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+
+.hero-wrapper p{
+	font-size: 18px;
+	margin: 20px 0 30px 0;
+}
+
+.hero-wrapper .btn{
+	background: var(--secondary);
+	color: var(--primary);
+	border: 1px solid var(--secondary);
+	padding: 15px 25px;
+	border-radius: 50px;
+	display: inline-block;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+.content_heroes{
+	text-transform: capitalize;
+	font-weight: bold;
+	border: 1px solid var(--secondary);
+	border-radius: 40px;
+	display: inline-block;
+	padding: 15px 25px;
+}
+
+.hero-wrapper .btn:hover{
+	background: transparent;
+	color: var(--secondary);
+}
+
+/* about me */
+
+/* .abouth1{
+	font-size: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 20px;
+	margin-left: 20px;
+	background-color: var(--primary);
+	padding-top: 10px;
+} */
+
+/* 
+.aboutinf{
+	display: inline-block;
+	margin-left: 1000px;
+	margin-top: -60px;
+	text-align: center;
+	background-color: var(--primary);
+	scroll-behavior: smooth;
+	padding-left: 1000px;
+	padding-bottom: 20px;
+	font-weight: bold;
+} */
+
+/* .about{
+	height: 40vh;
+}
+
+#about{
+	padding: 8%;
+	display: flex;
+	justify-content: space-around;
+} */
+
+.copyright{
+	/* margin: 18px 15px; */
+	background-color: var(--background);
+	text-align: center;
+	padding: 10px;
+	font-weight: bold;
+}
+
+.aboutinf{
+	float: left;
+	width: 50%;
+	padding: 20px;
+}
+
+.aboutinf2{
+	float: left;
+	width: 50%;
+	padding: 20px;
+}
+
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.abouth1{
+	padding-top: 10px;
+	padding-left: 20px;
+}
+/* .linkgit{
+	padding-top: 10px;
+} */
